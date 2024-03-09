@@ -1,0 +1,84 @@
+
+/* body of the html , font and size of font this will change the number outside the column*/
+body {
+  background-color: lightblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+/* to format the textarea background, colore, border, and padding*/
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: black;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+/*This is to keep any spaces in between the columns from showing */
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+/*format the top border for each row*/
+.row {
+  border-top: 1px solid white;
+}
+
+/*format the hour font and color*/
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+
+/* to format the background color for hours 9 , 12 , 3 columns */
+.past {
+  background-color: #f395d7;
+  color: white;
+}
+
+/* to format the background color for hours 10 , 1 , 4 columns*/
+.present {
+  background-color: #f01eaa;
+  color: white;
+}
+
+/* to format the background color for hours 11, 2, 5*/
+.future {
+  background-color: #e63515;
+  color: white;
+}
+
+/*format save buttom and space around button*/
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #f6fa0a;
+  color: rgb(20, 3, 3);
+}
+
+
+/* when hovering over save symbol button it will change*/
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* to show the user the information was saved in local storage*/
+.notification {
+  display: none;
+  padding-bottom: 10px;
+  color: rgb(236, 11, 11);
+}
+
+.warning {
+  display: block;
+}
